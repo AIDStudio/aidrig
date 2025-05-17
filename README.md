@@ -1,5 +1,6 @@
 # <span style="color:gold">AIDRig V 0.0.1</span>
 
+
 # 🚀 <span style="color:red">AIDRig</span> – Az Android-barát, <span style="color:red">CPU</span>-kímélő bányászrig!
 
 Az <span style="color:gold">**AIDRig**</span> egy modern, kimondottan Androidra optimalizált bányászrig, amely a lehető legjobb teljesítményt nyújtja, miközben kíméli az eszközöd <span style="color:red">**CPU**</span>-ját és akkumulátorát.
@@ -47,7 +48,7 @@ Ideális választás, ha szeretnél hatékonyan, stabilan és energiatakarékosa
     ``` 
 
     ```sh
-    git clone https://github.com/AIDStudio/AIDRig.git
+    git clone https://github.com/AIDStudio/aidrig.git
     ``` 
     ```sh
     cd AIDRig
