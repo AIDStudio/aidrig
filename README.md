@@ -1,77 +1,69 @@
 # <span style="color:gold">AIDRig V 0.0.1</span>
 
+# đ <span style="color:red">AIDRig</span> â The Android-friendly, <span style="color:red">CPU</span>-conscious mining rig!
 
-# 🚀 <span style="color:red">AIDRig</span> – Az Android-barát, <span style="color:red">CPU</span>-kímélő bányászrig!
+<span style="color:gold">**AIDRig**</span> is a modern, Android-optimized mining rig designed to deliver maximum performance while minimizing <span style="color:red">**CPU**</span> load and battery consumption.
 
-Az <span style="color:gold">**AIDRig**</span> egy modern, kimondottan Androidra optimalizált bányászrig, amely a lehető legjobb teljesítményt nyújtja, miközben kíméli az eszközöd <span style="color:red">**CPU**</span>-ját és akkumulátorát.
+Itâs the ideal solution if you want efficient, stable, and energy-saving mining on a mobile device â even on older hardware!
 
-Ideális választás, ha szeretnél hatékonyan, stabilan és energiatakarékosan bányászni mobil eszközön vagy akár régebbi hardveren is!
+### Why Choose AIDRig?
 
-### Miért az AIDRig?
+- **Optimized for Android:**  
+    Specifically tuned for ARM architecture and the Android environment.
 
-- **Androidra optimalizált:** 
+- **CPU-Friendly:**  
+    Low CPU usage, reduced heat generation, and minimal power consumption â enjoy longer sessions with less overheating!
 
-    Kifejezetten ARM architektúrára és Android környezetre hangolva.
+- **Easy Installation:**  
+    No complicated setup or root access needed. Download, run, and start mining!
 
-- **CPU-barát:** 
+- **Simple Configuration:**  
+    Clear and editable JSON config file or quick launch via command line.
 
-    Alacsony CPU-terhelés, hőtermelés és energiafogyasztás – hosszabb üzemidő, kevesebb melegedés!
-
-- **Egyszerű telepítés:** 
-
-    Nincs szükség bonyolult beállításokra vagy root jogokra. Letöltöd, futtatod, bányászol!
-
-- **Könnyű konfiguráció:**  
-
-    Átlátható, egyszerűen szerkeszthető JSON config, vagy akár parancssoros indítás.
-
-- **Stabilitás:**
-
-    Hosszú távú, megbízható működés, automatikus újracsatlakozás és hibakezelés.
+- **Stability:**  
+    Long-term reliable operation with auto-reconnect and built-in error handling.
 
 ---
 
-## 🔧 Telepítés (Android Termux)
+## đ§ Installation (Android Termux)
 
-1. **Töltsd le** az előre lefordított binárist és már használhatod is!
+1. **Download** the precompiled binary and you're ready to go!
 
-2. **Telepítés** 
-
+2. **Install Termux dependencies:**  
     ```sh
     apt-get update
     apt-get install git -y
-    ``` 
+    ```
 
     ```sh
     apt update
     apt upgrade
-    ``` 
+    ```
 
     ```sh
     git clone https://github.com/AIDStudio/aidrig.git
-    ``` 
-    ```sh
-    cd aidig
-    ``` 
+    cd aidrig
+    ```
+
     ```sh
     ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR.WALLET.RIGNAME -t8 -p x
     ```
 
-3. **Élvezd a stabil, CPU-barát bányászatot Androidon!**
+3. **Enjoy stable, CPU-friendly mining on Android!**
 
 ---
 
-## 💡 Tipp
-- AIDRig-et használhatod régi telefonokon, tableteken, vagy bármilyen ARM-alapú Android eszközön.
+## đĄ Tip  
+- AIDRig can run on old phones, tablets, or any ARM-based Android device.
 
 ---
 
-## 📞 Kapcsolat & Közösség
-- Kérdésed van?
-- Hibát találtál?
-- Csatlakozz a közösséghez vagy írj nekünk!
-- E-mail: aidstudio21@gmail.com
+## đ Contact & Community  
+- Got a question?  
+- Found a bug?  
+- Join the community or reach out!  
+- Email: aidstudio21@gmail.com
 
 ---
 
-**AIDRig – A jövő bányászrigje Androidra!**
+**AIDRig â The future of Android mining rigs!**
