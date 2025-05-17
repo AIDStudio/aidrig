@@ -1,33 +1,52 @@
-<span style="color:gold">AIDRig V 0.0.1</span>
-🚀 <span style="color:red">AIDRig</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
-<span style="color:gold">AIDRig</span> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <span style="color:red">CPU</span> and battery.
-It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!
-Why AIDRig?
- * Optimized for Android:
-   Specifically tuned for ARM architecture and the Android environment.
- * CPU-friendly:
-   Low CPU load, heat generation, and power consumption – longer runtime, less overheating!
- * Simple installation:
-   No need for complicated setups or root privileges. Download, run, and mine!
- * Easy configuration:
-   Transparent, easily editable JSON config, or even command-line startup.
- * Stability:
-   Long-term, reliable operation, automatic reconnection, and error handling.
-🔧 Installation (Android Termux)
- * Download the pre-compiled binary, and you're ready to go!
- * Installation
-   apt-get update
-apt-get install git -y
-```sh
-apt update
-apt upgrade
-```sh
-git clone https://github.com/AIDStudio/aidrig.git
-```sh
-cd aidig
+# <span style="color:gold">AIDRig V 0.0.1</span>
 
- ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR.WALLET.RIGNAME -t8 -p x
- ```
+# 🚀 <span style="color:red">AIDRig</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
+
+<span style="color:gold">**AIDRig**</span> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <span style="color:red">**CPU**</span> and battery.
+
+It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!
+
+### Why AIDRig?
+
+-   **Optimized for Android:** Specifically tuned for ARM architecture and the Android environment.
+
+-   **CPU-friendly:** Low CPU load, heat generation, and power consumption – longer runtime, less overheating!
+
+-   **Simple installation:** No need for complicated setups or root privileges. Download, run, and mine!
+
+-   **Easy configuration:** Transparent, easily editable JSON config, or even command-line startup.
+
+-   **Stability:** Long-term, reliable operation, automatic reconnection, and error handling.
+
+---
+
+## 🔧 Installation (Android Termux)
+
+1.  **Download** the pre-compiled binary, and you're ready to go!
+
+2.  **Installation**
+
+    ```sh
+    apt-get update
+    apt-get install git -y
+    ```
+    
+    ```sh
+    apt update
+    apt upgrade
+    ```
+    
+    ```sh
+    git clone https://github.com/AIDStudio/aidrig.git
+    ```
+    
+    ```sh
+    cd aidig
+    ```
+    
+    ```sh
+    ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR.WALLET.RIGNAME -t8 -p x
+    ```
 
 3.  **Enjoy stable, CPU-friendly mining on Android!**
 
@@ -49,4 +68,3 @@ cd aidig
 ---
 
 **AIDRig – The future of mining rigs on Android!**
-
