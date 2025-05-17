@@ -51,7 +51,7 @@ Ideális választás, ha szeretnél hatékonyan, stabilan és energiatakarékosa
     git clone https://github.com/AIDStudio/aidrig.git
     ``` 
     ```sh
-    cd AIDRig
+    cd aidig
     ``` 
     ```sh
     ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR.WALLET.RIGNAME -t8 -p x
