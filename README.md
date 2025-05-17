@@ -6,6 +6,10 @@
 
 It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!
 
+No donation during the entire mining process, your own wallet address is mined!
+
+Therefore, to keep the project free, we would like to ask for a donation to the following Wallet address: 10 POL Wallet address: 0x6b5aFB35eFbe303df30B86454c7D36f4e8D5FB2C
+
 ### Why AIDRig?
 
 -   **Optimized for Android:** Specifically tuned for ARM architecture and the Android environment.
