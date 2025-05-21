@@ -10,7 +10,13 @@ AIDRIG_ARGS=" -a rx
 # Screen session neve
 SESSION_NAME="aidrig_miner"
 
-# Ellenőrizze, hogy fut-e már a session
+# Csak az aidrig fájlt tesszük futtathatóvá, ha még nem az
+if [ ! -x "$AIDRIG_PATH" ]; then
+  echo "Futtathatóvá tesszük az aidrig fájlt"
+  chmod +x "$AIDRIG_PATH"
+fi
+
+# Ellenőrizzük, hogy fut-e már a session
 if screen -list | grep -q "$SESSION_NAME"; then
   echo "A screen session már fut: $SESSION_NAME"
 else
