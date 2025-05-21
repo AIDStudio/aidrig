@@ -49,7 +49,7 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     ```
     
     ```sh
-    ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR.WALLET.RIGNAME -t8 -p x
+    ./aidrig_indito-t1.sh
     ```
 
 3.  **Enjoy stable, CPU-friendly mining on Android!**
