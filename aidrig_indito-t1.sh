@@ -4,8 +4,8 @@
 AIDRIG_PATH="./aidrig"
 AIDRIG_ARGS=" -a rx
  -o stratum+ssl://rx.unmineable.com:443
- -u COIN:YOUR_WALLET.WORKER
- -t 6 -p x"
+ -u XMR:YOUR_WALLET.WORKER
+ -t 6 -p x -k"
 
 # Screen session neve
 SESSION_NAME="aidrig_miner"
