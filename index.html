@@ -141,23 +141,23 @@
     <h3> <strong class="highlight-red"> 🔧 Installation (Android Termux) </strong> </h3>
     
     <pre><code>apt-get update
-apt-get install git -y</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+apt-get install git -y</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
     <pre><code>apt update
-apt upgrade</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+apt upgrade</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
     <strong class="highlight-red">Repo Download</strong>
-    <pre><code>git clone https://github.com/AIDStudio/aidrig.git</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+    <pre><code>git clone https://github.com/AIDStudio/aidrig.git</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
-    <pre><code>cd aidig</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+    <pre><code>cd aidig</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
     <strong class="highlight-red">Settings</strong>
-    <pre><code>chmod +x aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+    <pre><code>chmod +x aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
-    <pre><code> nano aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+    <pre><code> nano aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
     <strong class="highlight-red">Run Miner</strong>
-    <pre><code>./aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Másolás</button></pre>
+    <pre><code>./aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
     
     <p><strong>Enjoy stable, CPU-friendly mining on Android!</strong></p>
   </div>
@@ -190,12 +190,12 @@ apt upgrade</code><button class="copy-btn" onclick="copyCode(this)">Másolás</b
       const codeBlock = button.previousElementSibling;
       const text = codeBlock.innerText;
       navigator.clipboard.writeText(text).then(() => {
-        button.innerText = 'Másolva!';
+        button.innerText = 'Copy!';
         setTimeout(() => {
-          button.innerText = 'Másolás';
+          button.innerText = 'Copy';
         }, 2000);
       }).catch(() => {
-        alert('Másolás sikertelen!');
+        alert('Copy Error!');
       });
     }
   </script>
