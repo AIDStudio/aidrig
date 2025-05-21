@@ -39,7 +39,7 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     apt update
     apt upgrade
     ```
-    
+    Download Repo
     ```sh
     git clone https://github.com/AIDStudio/aidrig.git
     ```
@@ -47,7 +47,11 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     ```sh
     cd aidig
     ```
-    
+    Settings
+    ```sh
+    chmod +x aidrig_indito-t1.sh
+    ```
+    Run
     ```sh
     ./aidrig_indito-t1.sh
     ```
