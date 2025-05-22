@@ -19,3 +19,13 @@ while true; do
   fi
   sleep 10
 done
+
+# sudo sysctl -w vm.nr_hugepages=1280
+#
+# sudo apt update && sudo apt upgrade
+#
+# sudo apt install libhwloc-dev
+#
+# sudo apt install libuv1-dev
+#
+# ./aidrig -a randomx -o us.mining.prohashing.com:3359 -u aidmine -p a=randomx,n=Ody_CodeSpace,o=aidmining
