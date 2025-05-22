@@ -1,4 +1,4 @@
-# <span style="color:gold">AIDRig V 0.0.2</span>
+# <span style="color:gold">AIDRig V 0.0.5</span>
 
 # 🚀 <span style="color:red">AIDRig</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
 
