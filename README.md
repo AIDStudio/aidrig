@@ -40,7 +40,7 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     ```
     Download Repo
     ```sh
-    git clone https://github.com/AIDStudio/aidrig.git
+    git clone -b linux https://github.com/AIDStudio/aidrig.git
     ```
     
     ```sh
