@@ -1,8 +1,9 @@
 # <span style="color:gold">AIDRig V 0.0.5</span>
 
-# 🚀 <span style="color:red">AIDRig Android</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
 
-<span style="color:gold">**AIDRig**</span> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <span style="color:red">**CPU**</span> and battery.
+# 🚀 <span style="color:red">AIDRig</span> – Your Linux-friendly, <span style="color:red">CPU</span>-saving mining rig!
+
+<span style="color:gold">**AIDRig**</span> is a modern mining rig specifically optimized for Linux, delivering the best possible performance while sparing your device's <span style="color:red">**CPU**</span> and battery.
 
 It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!
 
@@ -12,7 +13,6 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
 
 ### Why AIDRig?
 
--   **Optimized for Android:** Specifically tuned for ARM architecture and the Android environment.
 
 -   **CPU-friendly:** Low CPU load, heat generation, and power consumption – longer runtime, less overheating!
 
@@ -24,24 +24,25 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
 
 ---
 
-## 🔧 Installation (Android Termux)
+## 🔧 Installation
 
 1.  **Download** the pre-compiled binary, and you're ready to go!
 
 2.  **Installation**
 
     ```sh
-    apt-get update
-    apt-get install git -y
+    sudo apt-get update
+    sudo apt-get install git -y
     ```
     
     ```sh
-    apt update
-    apt upgrade
+    sudo apt update
+    sudo apt upgrade
     ```
     Download Repo
     ```sh
-    git clone -b android https://github.com/AIDStudio/aidrig.git
+
+    git clone -b linux https://github.com/AIDStudio/aidrig.git
     ```
     
     ```sh
@@ -56,13 +57,9 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     ./aidrig_indito-t1.sh
     ```
 
-3.  **Enjoy stable, CPU-friendly mining on Android!**
+3.  **Enjoy stable, CPU-friendly mining on linux!**
 
 ---
-
-## 💡 Tip
-
--   You can use AIDRig on old phones, tablets, or any ARM-based Android device.
 
 ---
 
