@@ -1,6 +1,6 @@
 # <span style="color:gold">AIDRig V 0.0.5</span>
 
-# 🚀 <span style="color:red">AIDRig</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
+# 🚀 <span style="color:red">AIDRig Android</span> – Your Android-friendly, <span style="color:red">CPU</span>-saving mining rig!
 
 <span style="color:gold">**AIDRig**</span> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <span style="color:red">**CPU**</span> and battery.
 
@@ -41,7 +41,7 @@ Therefore, to keep the project free, we would like to ask for a donation to the 
     ```
     Download Repo
     ```sh
-    git clone https://github.com/AIDStudio/aidrig.git
+    git clone -b android https://github.com/AIDStudio/aidrig.git
     ```
     
     ```sh
