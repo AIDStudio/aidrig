@@ -1,6 +1,6 @@
 #!/bin/bash
 
-AIDRIG_PATH="./aidrig"
+AIDRIG_PATH="./aidrig-android"
 CPU="2"
 AIDRIG_ARGS=" -a rx -o stratum+ssl://rx.unmineable.com:443 -u POL:YOUR_WALLET.CPU2 -t $CPU -p x -k"
 
