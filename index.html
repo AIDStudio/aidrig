@@ -14,26 +14,27 @@
       margin: 0;
       line-height: 1.6;
     }
-    
+
     h1,
     h2,
     h3 {
       color: gold;
       margin-top: 1.2em;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
-    
+
     .highlight-red {
       color: red;
     }
-    
+
     .highlight-gold {
       color: gold;
     }
-    
+
     .highlight-blue {
       color: blue;
     }
-    
+
     code,
     pre {
       background-color: #1e1e1e;
@@ -45,161 +46,164 @@
       font-family: monospace;
       margin: 10px 0;
       position: relative;
+      border-left: 4px solid gold; /* Add left border for emphasis */
     }
-    
-    /* Másolás gomb stílusa */
+
     button.copy-btn {
       position: absolute;
-      top: 8px;
-      right: 12px;
-      background-color: #444;
-      border: none;
-      color: #0f0;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 0.8em;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      user-select: none;
+      top: 8px; 
+      right: 12px; 
+      background-color: #444; 
+      border: none; 
+      color: #0f0; 
+      padding: 4px 8px; 
+      border-radius: 4px; 
+      font-size: 0.8em; 
+      cursor: pointer; 
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Added transformation */
     }
-    
+
     button.copy-btn:hover {
-      background-color: #2a2;
+        background-color: #2a2; 
+        transform: scale(1.05); /* Scale effect on hover */
     }
-    
+
     ul,
     ol {
-      padding-left: 20px;
+        padding-left: 20px; 
+        list-style-type: square; /* Change bullet style */
     }
-    
+
     hr {
-      border: 0;
-      border-top: 1px solid #444;
-      margin: 2em 0;
+        border: 0; 
+        border-top: 1px solid #444; 
+        margin: 2em 0; 
+        opacity: 0.5; /* Add a little transparency */
     }
-    
+
     .section {
-      margin-bottom: 30px;
+        margin-bottom: 30px; 
+        padding-bottom: 20px; /* Padding for sections */
+        border-bottom: 2px solid #444; /* Add a bottom border for separation */
     }
     
-    @media (max-width: 600px) {
-      body {
-        padding: 15px;
-        font-size: 16px;
-      }
-      
-      code,
-      pre {
-        font-size: 14px;
-      }
-      
-      h1 {
-        font-size: 1.5em;
-      }
-      
-      h2 {
-        font-size: 1.3em;
-      }
-      
-      h3 {
-        font-size: 1.1em;
-      }
+    .header-image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px; /* Space under image */
+        border-radius: 8px; /* Rounded corners for the image */
+        box-shadow: rgba(0,0,0,0.3) 4px 4px 15px; /* Shadow effect for depth */
     }
-  </style>
+    
+    @media (max-width:600px) { 
+        body { padding :15 px ; font-size :16 px ; } 
+
+        code , pre { font-size :14 px ; } 
+
+        h1 { font-size :1.5 em ; } 
+
+        h2 { font-size :1.3 em ; } 
+
+        h3 { font-size :1.1 em ; } 
+     }
+   </style>
 </head>
 
 <body>
-  
-  <h1><span class="highlight-gold">AIDRig V 0.0.5</span></h1>
-  
-  <h2>🚀 <span class="highlight-red">AIDRig</span> – Your Android-friendly, <span class="highlight-red">CPU</span>-saving mining rig!</h2>
-  
-  <p><strong class="highlight-gold">AIDRig</strong> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <strong class="highlight-red">CPU</strong> and battery.</p>
-  
-  <p>It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!</p>
-  
-  <p>No donation during the entire mining process, your own wallet address is mined!</p>
-  
-  <p>To keep the project free, we kindly ask for donations:<br>
-    <strong>10 POL Wallet address:</strong> 0x6b5aFB35eFbe303df30B86454c7D36f4e8D5FB2C
-  </p>
-  
-  <div class="section">
-    <h3>Why AIDRig?</h3>
-    <ul>
-      <li><strong>Optimized for Android:</strong> Specifically tuned for ARM architecture and the Android environment.</li>
-      <li><strong>CPU-friendly:</strong> Low CPU load, heat generation, and power consumption – longer runtime, less overheating!</li>
-      <li><strong>Simple installation:</strong> No need for complicated setups or root privileges. Download, run, and mine!</li>
-      <li><strong>Easy configuration:</strong> Transparent, easily editable JSON config, or even command-line startup.</li>
-      <li><strong>Stability:</strong> Long-term, reliable operation, automatic reconnection, and error handling.</li>
-    </ul>
-  </div>
-  
-  <hr>
-  
-  <div class="section">
-    <h3> <strong class="highlight-red"> 🔧 Installation (Android Termux) </strong> </h3>
-    
-    <pre><code>apt-get update
-apt-get install git -y</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <pre><code>apt update
-apt upgrade</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <strong class="highlight-red">Repo Download</strong>
-    <pre><code>git clone https://github.com/AIDStudio/aidrig.git</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <pre><code>cd aidig</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <strong class="highlight-red">Settings</strong>
-    <pre><code>chmod +x aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <pre><code> nano aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <strong class="highlight-red">Run Miner</strong>
-    <pre><code>./aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    
-    <p><strong>Enjoy stable, CPU-friendly mining on Android!</strong></p>
-  </div>
-  
-  <hr>
-  
-  <div class="section">
-    <h3>💡 Tip</h3>
-    <p>You can use AIDRig on old phones, tablets, or any ARM-based Android device.</p>
-  </div>
-  
-  <hr>
-  
-  <div class="section">
-    <h3>📞 Contact & Community</h3>
-    <ul>
-      <li>Got questions?</li>
-      <li>Found a bug?</li>
-      <li>Join the community or write to us!</li>
-      <li><strong>E-mail:</strong> aidstudio21@gmail.com</li>
-    </ul>
-  </div>
-  
-  <hr>
-  
-  <p><strong>AIDRig – The future of mining rigs on Android!</strong></p>
-  
-  <script>
-    function copyCode(button) {
-      const codeBlock = button.previousElementSibling;
-      const text = codeBlock.innerText;
-      navigator.clipboard.writeText(text).then(() => {
-        button.innerText = 'Copy!';
-        setTimeout(() => {
-          button.innerText = 'Copy';
-        }, 2000);
-      }).catch(() => {
-        alert('Copy Error!');
-      });
-    }
-  </script>
-  
-</body>
 
-</html>
+<img src="pn.jpg" alt="AIDRig Banner" class="header-image"> <!-- Add an image -->
+
+<h1><span class="highlight-gold">AIDRig V 0.0.5</span></h1>
+
+<h2>🚀 <span class="highlight-red">AIDRig</span> – Your Android-friendly, <span class="highlight-red">CPU</span>-saving mining rig!</h2>
+
+<p><strong class="highlight-gold">AIDRig</strong> is a modern mining rig specifically optimized for Android, delivering the best possible performance while sparing your device's <strong class="highlight-red">CPU</strong> and battery.</p>
+
+<p>It's the ideal choice if you want to mine efficiently, stably, and energy-consciously on a mobile device or even on older hardware!</p>
+
+<p>No donation during the entire mining process, your own wallet address is mined!</p>
+
+<p>To keep the project free, we kindly ask for donations:<br>
+<strong>10 POL Wallet address:</strong> <span class="highlight-gold">0x6b5aFB35eFbe303df30B86454c7D36f4e8D5FB2C</span>
+</p>
+
+<div class="section">
+<h3>Why AIDRig?</h3>
+<ul>
+<li><strong>Optimized for Android:</strong> Specifically tuned for ARM architecture and the Android environment.</li>
+<li><strong>CPU-friendly:</strong> Low CPU load, heat generation, and power consumption – longer runtime, less overheating!</li>
+<li><strong>Simple installation:</strong> No need for complicated setups or root privileges. Download, run, and mine!</li>
+<li><strong>Easy configuration:</strong> Transparent, easily editable JSON config or even command-line startup.</li>
+<li><strong>Stability:</strong> Long-term reliable operation with automatic reconnection and error handling.</li>
+</ul>
+</div>
+
+<hr>
+
+<div class="section">
+<h3><strong class="highlight-red">🔧 Installation (Android Termux)</strong></h3>
+
+<pre><code>apt-get update
+apt-get install git -y</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<pre><code>apt update
+apt upgrade</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<strong class="highlight-red">Repo Download</strong>
+<pre><code>git clone https://github.com/AIDStudio/aidrig.git</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<pre><code>cd aidrig</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<strong class="highlight-red">Settings</strong>
+<pre><code>chmod +x aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<pre><code> nano aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<strong class="highlight-red">Run Miner</strong>
+<pre><code>./aidrig_indito-t1.sh</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
+
+<p><strong>Enjoy stable, CPU-friendly mining on Android!</strong></p>
+</div>
+
+<hr>
+
+<div class="section">
+<h3>💡 Tip</h3>
+<p>You can use AIDRig on old phones, tablets or any ARM-based Android device.</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h3>📞 Contact & Community </h3>
+<ul>
+<li>Got questions?</li>
+<li>Found a bug?</li>
+<li>Join the community or write to us!</li>
+<li><strong>E-mail:</strong>&nbsp;<span class='highlight-gold'>aidstudio21@gmail.com</span></li>
+ </ul >
+ </div >
+
+<hr >
+
+<p > < strong > AIDRig – The future of mining rigs on Android! </ strong ></ p >
+
+<script >
+function copyCode(button) {
+const codeBlock = button.previousElementSibling ;
+const text = codeBlock.innerText ;
+navigator.clipboard.writeText(text).then(() => {
+button.innerText = 'Copied!';
+setTimeout(() => {
+button.innerText = 'Copy' ;
+},2000 );
+}).catch(() => {
+alert('Copy Error!');
+});
+}
+ </ script >
+
+ </ body >
+
+ </ html >

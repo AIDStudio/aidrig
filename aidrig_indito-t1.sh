@@ -1,14 +1,14 @@
 #!/bin/bash
 
 AIDRIG_PATH="./aidrig"
-CPU=$(nproc)
-AIDRIG_ARGS=" -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR_WALLET.WORKER -t $CPU -p x -k"
+CPU="2"
+AIDRIG_ARGS=" -a rx -o stratum+ssl://rx.unmineable.com:443 -u POL:YOUR_WALLET.CPU2 -t $CPU -p x -k"
 
 SESSION_NAME="aidrig_miner"
 LOG_FILE="./aidrig.log"
 
 if [ ! -x "$AIDRIG_PATH" ]; then
-  echo "Futtathatóvá tesszük az aidrig fájlt"
+  echo "Futta thatóvá tesszük az aidrig fájlt"
   chmod +x "$AIDRIG_PATH"
 fi
 
@@ -27,5 +27,5 @@ done
 # sudo apt install libhwloc-dev
 #
 # sudo apt install libuv1-dev
-#
+
 # ./aidrig -a randomx -o us.mining.prohashing.com:3359 -u aidmine -p a=randomx,n=Ody_CodeSpace,o=aidmining
