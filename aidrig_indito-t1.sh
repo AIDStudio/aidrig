@@ -2,7 +2,7 @@
 
 AIDRIG_PATH="./aidrig-android"
 CPU="2"
-AIDRIG_ARGS=" -a rx -o stratum+ssl://rx.unmineable.com:443 -u POL:YOUR_WALLET.CPU2 -t $CPU -p x -k"
+AIDRIG_ARGS=" -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR_WALLET.CPU2 -t $CPU -p x -k"
 
 SESSION_NAME="aidrig_miner"
 LOG_FILE="./aidrig.log"
